@@ -1,0 +1,12 @@
+.swal2-popup {
+    font-size: 18px;
+}
+
+
+.my-swal-modal-container {
+    align-items: normal !important;
+}
+
+.my-swal-modal-popup {
+    text-align: left !important;
+}

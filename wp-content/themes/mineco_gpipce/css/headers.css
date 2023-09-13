@@ -1,0 +1,14 @@
+.header-registro {
+    padding-top: 2rem;
+    height: auto;
+    min-height: 30rem;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media(min-width: 768px){
+    .header-registro {
+        height: 22vh;
+        max-height: 90rem;
+    }
+}

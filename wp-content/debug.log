@@ -1,0 +1,401 @@
+[27-Jul-2023 20:59:51 UTC] PHP Fatal error:  Uncaught TypeError: Return value of mineco_update_formulario() must be of the type array or null, object returned in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\includes\API\ControllerFormularios.php:148
+Stack trace:
+#0 C:\laragon\www\organo_genero\wp-includes\rest-api\class-wp-rest-server.php(1181): mineco_update_formulario(Object(WP_REST_Request))
+#1 C:\laragon\www\organo_genero\wp-includes\rest-api\class-wp-rest-server.php(1028): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/mineco/v1/form...', Array, NULL)
+#2 C:\laragon\www\organo_genero\wp-includes\rest-api\class-wp-rest-server.php(442): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\laragon\www\organo_genero\wp-includes\rest-api.php(410): WP_REST_Server->serve_request('/mineco/v1/form...')
+#4 C:\laragon\www\organo_genero\wp-includes\class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 C:\laragon\www\organo_genero\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\laragon\www\organo_gen in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\includes\API\ControllerFormularios.php on line 148
+[27-Jul-2023 21:02:06 UTC] PHP Fatal error:  Uncaught TypeError: Return value of mineco_update_formulario() must be of the type array or null, string returned in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\includes\API\ControllerFormularios.php:148
+Stack trace:
+#0 C:\laragon\www\organo_genero\wp-includes\rest-api\class-wp-rest-server.php(1181): mineco_update_formulario(Object(WP_REST_Request))
+#1 C:\laragon\www\organo_genero\wp-includes\rest-api\class-wp-rest-server.php(1028): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/mineco/v1/form...', Array, NULL)
+#2 C:\laragon\www\organo_genero\wp-includes\rest-api\class-wp-rest-server.php(442): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\laragon\www\organo_genero\wp-includes\rest-api.php(410): WP_REST_Server->serve_request('/mineco/v1/form...')
+#4 C:\laragon\www\organo_genero\wp-includes\class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 C:\laragon\www\organo_genero\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\laragon\www\organo_gen in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\includes\API\ControllerFormularios.php on line 148
+[28-Jul-2023 15:39:21 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[28-Jul-2023 15:39:21 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\front-page.php on line 57
+[28-Jul-2023 15:39:29 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 155
+[28-Jul-2023 15:39:29 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 155
+[28-Jul-2023 15:39:29 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 163
+[28-Jul-2023 15:39:29 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 163
+[28-Jul-2023 15:39:35 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 155
+[28-Jul-2023 15:39:35 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 155
+[28-Jul-2023 15:39:35 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 163
+[28-Jul-2023 15:39:35 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 163
+[28-Jul-2023 18:25:07 UTC] PHP Notice:  Array to string conversion in C:\laragon\www\organo_genero\wp-includes\formatting.php on line 1098
+[28-Jul-2023 18:25:07 UTC] PHP Notice:  Array to string conversion in C:\laragon\www\organo_genero\wp-includes\formatting.php on line 1098
+[28-Jul-2023 18:25:20 UTC] PHP Notice:  Array to string conversion in C:\laragon\www\organo_genero\wp-includes\formatting.php on line 1098
+[28-Jul-2023 18:25:20 UTC] PHP Notice:  Array to string conversion in C:\laragon\www\organo_genero\wp-includes\formatting.php on line 1098
+[28-Jul-2023 18:36:30 UTC] PHP Notice:  Array to string conversion in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 5
+[28-Jul-2023 19:07:41 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\headers\header-registro.php on line 32
+[28-Jul-2023 19:07:52 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_User as array in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\headers\header-registro.php:32
+Stack trace:
+#0 C:\laragon\www\organo_genero\wp-includes\template.php(785): require()
+#1 C:\laragon\www\organo_genero\wp-includes\template.php(718): load_template('C:\\laragon\\www\\...', false, Array)
+#2 C:\laragon\www\organo_genero\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\Template\page-formulario-registro.php(6): get_template_part('headers/header-...')
+#4 C:\laragon\www\organo_genero\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\organo_genero\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\organo_genero\index.php(17): require('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\headers\header-registro.php on line 32
+[28-Jul-2023 20:33:44 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\functions.php:131
+Stack trace:
+#0 C:\laragon\www\organo_genero\wp-includes\class-wp-hook.php(308): add_fields_section(Object(WP_User))
+#1 C:\laragon\www\organo_genero\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\organo_genero\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\organo_genero\wp-admin\user-edit.php(844): do_action('show_user_profi...', Object(WP_User))
+#4 C:\laragon\www\organo_genero\wp-admin\profile.php(18): require_once('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\functions.php on line 131
+[28-Jul-2023 20:33:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\laragon\www\organo_genero\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[28-Jul-2023 20:33:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\laragon\www\organo_genero\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[28-Jul-2023 20:34:24 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\functions.php:131
+Stack trace:
+#0 C:\laragon\www\organo_genero\wp-includes\class-wp-hook.php(308): add_fields_section(Object(WP_User))
+#1 C:\laragon\www\organo_genero\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\organo_genero\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\organo_genero\wp-admin\user-edit.php(844): do_action('show_user_profi...', Object(WP_User))
+#4 C:\laragon\www\organo_genero\wp-admin\profile.php(18): require_once('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\functions.php on line 131
+[28-Jul-2023 20:34:26 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\functions.php:131
+Stack trace:
+#0 C:\laragon\www\organo_genero\wp-includes\class-wp-hook.php(308): add_fields_section(Object(WP_User))
+#1 C:\laragon\www\organo_genero\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\organo_genero\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\organo_genero\wp-admin\user-edit.php(844): do_action('show_user_profi...', Object(WP_User))
+#4 C:\laragon\www\organo_genero\wp-admin\profile.php(18): require_once('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\functions.php on line 131
+[28-Jul-2023 20:35:09 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\functions.php:131
+Stack trace:
+#0 C:\laragon\www\organo_genero\wp-includes\class-wp-hook.php(308): add_fields_section(Object(WP_User))
+#1 C:\laragon\www\organo_genero\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\organo_genero\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\organo_genero\wp-admin\user-edit.php(844): do_action('show_user_profi...', Object(WP_User))
+#4 C:\laragon\www\organo_genero\wp-admin\profile.php(18): require_once('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\functions.php on line 131
+[28-Jul-2023 20:43:01 UTC] PHP Notice:  Undefined index: data in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\functions.php on line 119
+[28-Jul-2023 20:43:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\functions.php on line 119
+[28-Jul-2023 20:43:19 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\functions.php:120
+Stack trace:
+#0 C:\laragon\www\organo_genero\wp-includes\class-wp-hook.php(308): add_fields_section(Object(WP_User))
+#1 C:\laragon\www\organo_genero\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\organo_genero\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\laragon\www\organo_genero\wp-admin\user-edit.php(844): do_action('show_user_profi...', Object(WP_User))
+#4 C:\laragon\www\organo_genero\wp-admin\profile.php(18): require_once('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\functions.php on line 120
+[28-Jul-2023 21:04:51 UTC] PHP Fatal error:  Cannot redeclare mineco_get_unidades() (previously declared in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\includes\queries.php:37) in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\includes\API\api-registro.php on line 61
+[28-Jul-2023 21:25:09 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 6
+[28-Jul-2023 21:25:19 UTC] PHP Notice:  Undefined index: descripcion in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 6
+[28-Jul-2023 21:28:21 UTC] PHP Fatal error:  Uncaught TypeError: Return value of get_user_unit_by_id() must be an instance of any or null, int returned in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\includes\queries.php:41
+Stack trace:
+#0 C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php(3): get_user_unit_by_id()
+#1 C:\laragon\www\organo_genero\wp-includes\template.php(785): require('C:\\laragon\\www\\...')
+#2 C:\laragon\www\organo_genero\wp-includes\template.php(718): load_template('C:\\laragon\\www\\...', false, Array)
+#3 C:\laragon\www\organo_genero\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\Template\page-formulario-registro.php(11): get_template_part('template-parts/...')
+#5 C:\laragon\www\organo_genero\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\organo_genero\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\includes\queries.php on line 41
+[28-Jul-2023 21:28:28 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:28 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:28 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:28 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:28 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:28 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:28 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:28 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:28 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:28 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:28 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:28 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:45 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:45 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:45 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:45 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:45 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:45 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:45 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:45 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:45 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:45 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:45 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:45 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:53 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:53 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:53 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:53 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:53 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:53 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:53 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:53 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:53 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:53 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:53 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:28:53 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:30:02 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:30:02 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:30:02 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:30:02 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:30:02 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:30:02 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:30:02 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:30:02 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:30:02 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:30:02 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:30:02 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:30:02 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:30:10 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:30:10 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:30:10 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:30:10 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:30:10 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:30:10 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:30:10 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:30:10 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:30:10 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:30:10 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:30:10 UTC] PHP Notice:  Trying to access array offset on value of type int in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:30:10 UTC] PHP Notice:  Trying to get property 'descripcion' of non-object in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\template-parts\formulario-registro.php on line 19
+[28-Jul-2023 21:54:18 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\Template\page-form-controller.php:55
+Stack trace:
+#0 C:\laragon\www\organo_genero\wp-includes\template-loader.php(106): include()
+#1 C:\laragon\www\organo_genero\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\organo_genero\index.php(17): require('C:\\laragon\\www\\...')
+#3 {main}
+  thrown in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\Template\page-form-controller.php on line 55
+[28-Jul-2023 21:56:17 UTC] PHP Warning:  Illegal string offset 'id' in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\Template\page-form-controller.php on line 56
+[28-Jul-2023 21:56:17 UTC] PHP Warning:  Illegal string offset 'descripcion' in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\Template\page-form-controller.php on line 56
+[28-Jul-2023 21:56:17 UTC] PHP Warning:  Illegal string offset 'id' in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\Template\page-form-controller.php on line 56
+[28-Jul-2023 21:56:17 UTC] PHP Warning:  Illegal string offset 'descripcion' in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\Template\page-form-controller.php on line 56
+[28-Jul-2023 21:56:34 UTC] PHP Warning:  Illegal string offset 'id' in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\Template\page-form-controller.php on line 56
+[28-Jul-2023 21:56:34 UTC] PHP Warning:  Illegal string offset 'descripcion' in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\Template\page-form-controller.php on line 56
+[28-Jul-2023 21:56:34 UTC] PHP Warning:  Illegal string offset 'id' in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\Template\page-form-controller.php on line 56
+[28-Jul-2023 21:56:34 UTC] PHP Warning:  Illegal string offset 'descripcion' in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\Template\page-form-controller.php on line 56
+[28-Jul-2023 21:56:42 UTC] PHP Warning:  Illegal string offset 'id' in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\Template\page-form-controller.php on line 56
+[28-Jul-2023 21:56:42 UTC] PHP Warning:  Illegal string offset 'descripcion' in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\Template\page-form-controller.php on line 56
+[28-Jul-2023 21:56:42 UTC] PHP Warning:  Illegal string offset 'id' in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\Template\page-form-controller.php on line 56
+[28-Jul-2023 21:56:42 UTC] PHP Warning:  Illegal string offset 'descripcion' in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\Template\page-form-controller.php on line 56
+[28-Jul-2023 21:56:56 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\Template\page-form-controller.php:56
+Stack trace:
+#0 C:\laragon\www\organo_genero\wp-includes\template-loader.php(106): include()
+#1 C:\laragon\www\organo_genero\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\organo_genero\index.php(17): require('C:\\laragon\\www\\...')
+#3 {main}
+  thrown in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\Template\page-form-controller.php on line 56
+[28-Jul-2023 21:57:06 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\Template\page-form-controller.php:55
+Stack trace:
+#0 C:\laragon\www\organo_genero\wp-includes\template-loader.php(106): include()
+#1 C:\laragon\www\organo_genero\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\organo_genero\index.php(17): require('C:\\laragon\\www\\...')
+#3 {main}
+  thrown in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\Template\page-form-controller.php on line 55
+[01-Aug-2023 14:03:58 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 155
+[01-Aug-2023 14:03:58 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 155
+[01-Aug-2023 14:03:58 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 163
+[01-Aug-2023 14:03:58 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 163
+[01-Aug-2023 14:06:09 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONSTRAINT fk_estado_unidades
+			            FOREIGN KEY (estado_id)
+			      ' at line 20 for query CREATE TABLE wp_formulario_unidades  (
+			        id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+			        formulario_id INT NOT NULL,
+			        unidad_id INT NOT NULL,
+			        estado_id INT NOT NULL,
+			        PRIMARY KEY (id),
+			        INDEX fk_DetallesFormulario_formularios1_idx (formulario_id ASC),
+			        INDEX fk_DetallesFormulario_Unidades1_idx (unidad_id ASC),
+			        INDEX fk_Unidades_EstadosG1_idx (estado_id ASC) ,
+			        CONSTRAINT fk_formulario_unidades
+			            FOREIGN KEY (formulario_id)
+			            REFERENCES wp_formularios (id)
+			            ON DELETE NO ACTION
+			            ON UPDATE NO ACTION,
+			        CONSTRAINT fk_unidades_formulario
+			            FOREIGN KEY (unidad_id)
+			            REFERENCES wp_unidades (id)
+			            ON DELETE NO ACTION
+			            ON UPDATE NO ACTION
+                	CONSTRAINT fk_estado_unidades
+			            FOREIGN KEY (estado_id)
+			            REFERENCES wp_estados (id)
+			            ON DELETE NO ACTION
+			            ON UPDATE NO ACTION
+			    ) ENGINE = InnoDB made by activate_plugin, do_action('activate_mineco-migration/plugin-mineco-migration.php'), WP_Hook->do_action, WP_Hook->apply_filters, mineco_wp_organo_tables, dbDelta
+[02-Aug-2023 18:09:13 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[02-Aug-2023 18:09:13 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\front-page.php on line 57
+[02-Aug-2023 18:09:14 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[02-Aug-2023 18:09:14 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\front-page.php on line 57
+[02-Aug-2023 18:09:14 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[02-Aug-2023 18:09:14 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\front-page.php on line 57
+[02-Aug-2023 20:51:38 UTC] WordPress database error Table 'wp_organo.wp_detalle' doesn't exist for query SHOW FULL COLUMNS FROM `wp_detalle` made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, mineco_registro_callback
+[02-Aug-2023 21:29:08 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\functions.php on line 178
+[02-Aug-2023 21:43:16 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 155
+[02-Aug-2023 21:43:16 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 155
+[02-Aug-2023 21:43:16 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 163
+[02-Aug-2023 21:43:16 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 163
+[02-Aug-2023 21:43:22 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[02-Aug-2023 21:43:22 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\front-page.php on line 57
+[02-Aug-2023 21:43:27 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 14:56:16 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 155
+[07-Aug-2023 14:56:16 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 155
+[07-Aug-2023 14:56:16 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 163
+[07-Aug-2023 14:56:16 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 163
+[07-Aug-2023 15:57:52 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 155
+[07-Aug-2023 15:57:52 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 155
+[07-Aug-2023 15:57:52 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 163
+[07-Aug-2023 15:57:52 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 163
+[07-Aug-2023 16:02:39 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\vendor\akeeba\awf\src\Database\Driver\Mysqli.php on line 136
+[07-Aug-2023 17:14:34 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 155
+[07-Aug-2023 17:14:34 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 155
+[07-Aug-2023 17:14:34 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 163
+[07-Aug-2023 17:14:34 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 163
+[07-Aug-2023 17:14:34 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:14:38 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:14:43 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:14:44 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:14:45 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:14:46 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:14:48 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:14:49 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:15:34 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:15:47 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 155
+[07-Aug-2023 17:15:47 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 155
+[07-Aug-2023 17:15:47 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 163
+[07-Aug-2023 17:15:47 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 163
+[07-Aug-2023 17:15:47 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:15:50 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:15:56 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:15:57 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:15:58 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:15:59 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:16:01 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:18:11 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:22:02 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:22:12 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:22:23 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:22:26 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:23:22 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:23:24 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:23:25 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:23:46 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:23:48 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:23:49 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:34:22 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:34:25 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:43:41 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 155
+[07-Aug-2023 17:43:41 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 155
+[07-Aug-2023 17:43:41 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 163
+[07-Aug-2023 17:43:41 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 163
+[07-Aug-2023 17:43:46 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:49:55 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:50:17 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:50:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:50:36 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:51:36 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:51:51 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:52:12 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:53:00 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:53:02 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:53:18 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:53:31 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:57:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:57:57 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 17:57:59 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:01:44 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:02:02 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:02:05 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:02:17 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:03:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:03:47 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:04:09 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:05:47 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:06:47 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:07:27 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:07:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:08:01 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 155
+[07-Aug-2023 18:08:01 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 155
+[07-Aug-2023 18:08:01 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 163
+[07-Aug-2023 18:08:01 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 163
+[07-Aug-2023 18:08:05 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:18:00 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:18:22 UTC] PHP Notice:  Undefined variable: _object in C:\laragon\www\organo_genero\wp-admin\includes\ajax-actions.php on line 1532
+[07-Aug-2023 18:18:22 UTC] PHP Notice:  Trying to get property 'type' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\theme-my-login\includes\functions.php on line 638
+[07-Aug-2023 18:18:22 UTC] PHP Notice:  Trying to get property 'object' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\theme-my-login\includes\functions.php on line 654
+[07-Aug-2023 18:18:22 UTC] PHP Notice:  Trying to get property 'description' of non-object in C:\laragon\www\organo_genero\wp-admin\includes\ajax-actions.php on line 1536
+[07-Aug-2023 18:18:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:18:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:20:26 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:22:24 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:22:33 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 155
+[07-Aug-2023 18:22:33 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 155
+[07-Aug-2023 18:22:33 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 163
+[07-Aug-2023 18:22:33 UTC] PHP Notice:  Trying to get property 'ID' of non-object in C:\laragon\www\organo_genero\wp-content\plugins\pagerestrict\pagerestrict.php on line 163
+[07-Aug-2023 18:23:41 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:23:43 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:23:44 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:24:10 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:24:41 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:24:54 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:25:15 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:25:26 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:25:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:25:55 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:25:57 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:26:16 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:26:17 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:27:52 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:28:51 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:29:28 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:30:13 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:30:15 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:30:32 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:30:34 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:30:50 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:33:02 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:33:34 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:33:57 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:34:21 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:34:30 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:34:52 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:35:00 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\laragon\www\organo_genero\wp-content\themes\mineco_gpipce\header.php on line 43
+[07-Aug-2023 18:35:12 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\vendor\akeeba\awf\src\Database\Driver\Mysqli.php on line 136
+[07-Aug-2023 18:35:13 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\vendor\akeeba\awf\src\Database\Driver\Mysqli.php on line 136
+[07-Aug-2023 18:35:16 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\vendor\akeeba\awf\src\Database\Driver\Mysqli.php on line 136
+[07-Aug-2023 18:35:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\organo_genero\wp-content\plugins\loginpress\include\class-remote-notification-client.php:274) in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\Solo\Controller\Backup.php on line 103
+[07-Aug-2023 18:35:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\organo_genero\wp-content\plugins\loginpress\include\class-remote-notification-client.php:274) in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\Solo\Controller\Backup.php on line 104
+[07-Aug-2023 18:35:19 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\vendor\akeeba\awf\src\Database\Driver\Mysqli.php on line 136
+[07-Aug-2023 18:35:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\organo_genero\wp-content\plugins\loginpress\include\class-remote-notification-client.php:274) in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\Solo\Controller\Backup.php on line 103
+[07-Aug-2023 18:35:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\organo_genero\wp-content\plugins\loginpress\include\class-remote-notification-client.php:274) in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\Solo\Controller\Backup.php on line 104
+[07-Aug-2023 18:35:22 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\vendor\akeeba\awf\src\Database\Driver\Mysqli.php on line 136
+[07-Aug-2023 18:35:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\organo_genero\wp-content\plugins\loginpress\include\class-remote-notification-client.php:274) in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\Solo\Controller\Backup.php on line 103
+[07-Aug-2023 18:35:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\organo_genero\wp-content\plugins\loginpress\include\class-remote-notification-client.php:274) in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\Solo\Controller\Backup.php on line 104
+[07-Aug-2023 18:35:25 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\vendor\akeeba\awf\src\Database\Driver\Mysqli.php on line 136
+[07-Aug-2023 18:35:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\organo_genero\wp-content\plugins\loginpress\include\class-remote-notification-client.php:274) in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\Solo\Controller\Backup.php on line 103
+[07-Aug-2023 18:35:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\organo_genero\wp-content\plugins\loginpress\include\class-remote-notification-client.php:274) in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\Solo\Controller\Backup.php on line 104
+[07-Aug-2023 18:35:27 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\vendor\akeeba\awf\src\Database\Driver\Mysqli.php on line 136
+[07-Aug-2023 18:35:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\organo_genero\wp-content\plugins\loginpress\include\class-remote-notification-client.php:274) in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\Solo\Controller\Backup.php on line 103
+[07-Aug-2023 18:35:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\organo_genero\wp-content\plugins\loginpress\include\class-remote-notification-client.php:274) in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\Solo\Controller\Backup.php on line 104
+[07-Aug-2023 18:35:30 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\vendor\akeeba\awf\src\Database\Driver\Mysqli.php on line 136
+[07-Aug-2023 18:35:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\organo_genero\wp-content\plugins\loginpress\include\class-remote-notification-client.php:274) in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\Solo\Controller\Backup.php on line 103
+[07-Aug-2023 18:35:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\organo_genero\wp-content\plugins\loginpress\include\class-remote-notification-client.php:274) in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\Solo\Controller\Backup.php on line 104
+[07-Aug-2023 18:35:32 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\vendor\akeeba\awf\src\Database\Driver\Mysqli.php on line 136
+[07-Aug-2023 18:35:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\organo_genero\wp-content\plugins\loginpress\include\class-remote-notification-client.php:274) in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\Solo\Controller\Backup.php on line 103
+[07-Aug-2023 18:35:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\organo_genero\wp-content\plugins\loginpress\include\class-remote-notification-client.php:274) in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\Solo\Controller\Backup.php on line 104
+[07-Aug-2023 18:35:35 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\vendor\akeeba\awf\src\Database\Driver\Mysqli.php on line 136
+[07-Aug-2023 18:35:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\organo_genero\wp-content\plugins\loginpress\include\class-remote-notification-client.php:274) in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\Solo\Controller\Backup.php on line 103
+[07-Aug-2023 18:35:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\organo_genero\wp-content\plugins\loginpress\include\class-remote-notification-client.php:274) in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\Solo\Controller\Backup.php on line 104
+[07-Aug-2023 18:35:40 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\vendor\akeeba\awf\src\Database\Driver\Mysqli.php on line 136
+[07-Aug-2023 18:35:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\organo_genero\wp-content\plugins\loginpress\include\class-remote-notification-client.php:274) in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\Solo\Controller\Backup.php on line 103
+[07-Aug-2023 18:35:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\organo_genero\wp-content\plugins\loginpress\include\class-remote-notification-client.php:274) in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\Solo\Controller\Backup.php on line 104
+[07-Aug-2023 18:35:43 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\vendor\akeeba\awf\src\Database\Driver\Mysqli.php on line 136
+[07-Aug-2023 18:35:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\organo_genero\wp-content\plugins\loginpress\include\class-remote-notification-client.php:274) in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\Solo\Controller\Backup.php on line 103
+[07-Aug-2023 18:35:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\laragon\www\organo_genero\wp-content\plugins\loginpress\include\class-remote-notification-client.php:274) in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\Solo\Controller\Backup.php on line 104
+[07-Aug-2023 18:35:47 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\laragon\www\organo_genero\wp-content\plugins\akeebabackupwp\app\vendor\akeeba\awf\src\Database\Driver\Mysqli.php on line 136
